@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-image: linear-gradient(rgb(61, 61, 61), black);
+}
+
+form {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 1vh;
+}
+
+input, .search, .remove {
+    margin: .1vw;
+    border-radius: 5px;
+    padding: 2vh;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2vh;
+}
+
+.search {
+    border: 2px solid transparent;
+    background-color: gray;
+    color: white;
+}
+
+.remove{
+    border: 2px solid transparent;
+    background-color: lightcoral;
+    color: white;
+}
+
+.search:hover {
+    background-color: rgb(48, 48, 48);
+}
+
+.remove:hover {
+    background-color: red;
+}
+
+.search:focus {
+    border: 2px solid gray;
+}
+
+.remove:focus {
+    border: 2px solid lightcoral;
+}
+
+.newDiv {
+    display: inline;
+    margin: .5vw;
+}
